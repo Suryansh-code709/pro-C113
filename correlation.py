@@ -4,7 +4,7 @@ import plotly_express as px
 import plotly.figure_factory as ff
 import seaborn as sns
 import statistics as st
-data_file = pd.read_csv("c112-c113/savings.csv")
+data_file = pd.read_csv("savings.csv")
 
 data_file_quant_saved = data_file["quant_saved"].tolist()
 data_file_age = data_file["age"].tolist()
